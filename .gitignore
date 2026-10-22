@@ -1,0 +1,46 @@
+# ============================================================================
+# Project: Telovox - Open Source AI Telephony & Calling Automation Platform
+# Author: Sohail MN (Aka Fingvo) - Full Stack Engineer
+# Copyright: (c) 2026 Fingvo. All rights reserved.
+# License: MIT License
+# ============================================================================
+
+# Node.js & TypeScript dependencies
+node_modules/
+dist/
+.next/
+out/
+build/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Erlang & Rebar3 build artifacts
+telovox-erlang/_build/
+telovox-erlang/.rebar3/
+telovox-erlang/*.dump
+telovox-erlang/*.beam
+erl_crash.dump
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database Dumps & Audio Recordings
+*.wav
+*.mp3
+*.ogg
+*.raw
+*.pcm
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
